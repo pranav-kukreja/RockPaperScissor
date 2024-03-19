@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play Stone Paper Scissors</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header-section">Rock Paper Scissors</div>
+    <div class="play-area">
+      <div class="playing-buttons-section">
+        <!-- stone -->
+        <button name="stone" class="button stoneButton">
+          <!-- <i class="fa-solid fa-hand-fist"></i> -->
+        </button>
+        <!-- paper -->
+        <button name="paper" class="button paperButton">
+          <!-- <i class="fa-solid fa-hand"></i> -->
+        </button>
+        <!-- scissor -->
+        <button name="scissor" class="button scissorButton">
+          <!-- <i class="fa-solid fa-hand-peace"></i> -->
+        </button>
+      </div>
+      <div class="score-section">
+        <div class="you">
+          <div class="your-score score">0</div>
+          <div class="your-name name">You</div>
+        </div>
+        <div class="computer">
+          <div class="computer-score score">0</div>
+          <div class="computer-name name">Computer</div>
+        </div>
+      </div>
+      <div class="winner-section">
+        <span class="winner-msg"
+          ><h2 class="winner-msg-h2">play the game now</h2>
+        </span>
+      </div>
+    </div>
+
+    <button class="reset">Reset</button>
+    <script src="images.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

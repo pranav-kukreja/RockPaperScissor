@@ -1,0 +1,118 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-section {
+  color: black;
+  height: 15vh;
+  font-size: 8vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+/*
+playing-buttons-section
+*/
+.button {
+  color: white;
+  font-size: 15vh;
+}
+.playing-buttons-section {
+  height: 40vh;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  align-items: center;
+}
+.button {
+  width: 30vmin;
+  height: 30vmin;
+  border-radius: 30vmin;
+  border: 1rem transparent solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #353535;
+
+  /* opacity: 0.85; */
+}
+.button:hover {
+  border: 0.5rem solid white;
+  cursor: pointer;
+  /* opacity: 1; */
+}
+/* add bg image to the various buttons */
+/* .paperButton {
+  background-image: url(images/paper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+.score-section {
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10%;
+  align-items: center;
+}
+.you,
+.computer {
+  width: 22vh;
+  height: 20vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10%;
+  align-items: center;
+}
+.score,
+.name {
+  font-size: 5vmin;
+}
+.winner-section {
+  display: flex;
+  height: 20vh;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10%;
+  align-items: center;
+}
+.winner-msg {
+  /* border: 1px solid black */
+  border-radius: 1rem;
+  padding: 1%;
+  color: white;
+  background-color: grey;
+}
+body {
+  background: #d9d9d9;
+  background: linear-gradient(
+    0deg,
+    rgba(217, 217, 217, 1) 15%,
+    rgba(127, 255, 212, 1) 55%,
+    rgba(201, 173, 167, 1) 100%
+  );
+}
+
+.reset {
+  height: 8vh;
+  width: 12vh;
+  border-radius: 2vh;
+  font-size: 3vh;
+  position: fixed;
+  bottom: 4vh;
+  right: 4vh;
+  background-color: transparent;
+}
+
+.reset:hover {
+  border: 0.3rem solid white;
+}
