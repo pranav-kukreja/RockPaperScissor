@@ -90,6 +90,7 @@ let resetGame = () => {
   compScoreDisplay.innerText = 0;
   yourScoreDisplay.innerText = 0;
   winnerMsgDisplay.innerText = "play the game now";
+  winnerMsgDiv.style.backgroundColor = "grey";
 };
 let resetbtn = document.querySelector(".reset");
 resetbtn.addEventListener("click", resetGame);
